@@ -26,7 +26,6 @@ nav{
 ul{ 
     width: 50%;
     margin-left: auto;
-    justify-content: center;
 }
 .heroimg{
     height: 600px;
@@ -43,7 +42,19 @@ ul{
     background-color: white;
     padding: 35px;
     text-align: center;
+    font-family:'Cormorant Garamond', serif;
 }
+
+button{
+background-color: #373738;
+color: white;
+padding: 15px;
+text-decoration: none;
+font-size: 14px;
+border-radius: 7px;
+
+}
+
 footer{
     background-color: #373738;
     width:100%;
