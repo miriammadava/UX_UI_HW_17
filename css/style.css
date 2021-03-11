@@ -9,8 +9,10 @@ nav{
     padding: 10px;
     background-color: #373738;
     color: white;
-    font-size: 18px;
-    text-align: center;
+    display: inline-block;
+    text-align: center ;
+    justify-content: space-evenly;
+    font-size: 18px; 
 }
 
 .logo{
