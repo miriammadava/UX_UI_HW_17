@@ -1,12 +1,11 @@
 .inline-block{
-
 display: inline-block;
 vertical-align: top;
 }
 
 nav{ 
     width: 100%;
-    padding: 1%;
+    padding: 20px;
     background-color: #373738;
     color: white;
     text-align: center;
@@ -17,9 +16,9 @@ nav{
     text-align: left;
     display: inline-block;
 }
-img{
- width: 50px;
- height: 50px;
+.navigation img{
+ width: 52px;
+ height: 58px;
  display: block;
  margin: auto;
 }
@@ -27,19 +26,28 @@ img{
 ul{ 
     width: 50%;
     margin-left: auto;
+    justify-content: center;
 }
 .heroimg{
     height: 600px;
+    width: 100%; 
     padding: 25px;
+    background-color: rgb(229,229,229);
+    display: block;
+    text-align: center;
 }
 .content{
     width: 500px;
-    margin: o auto;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: white;
+    padding: 35px;
+    text-align: center;
 }
 footer{
     background-color: #373738;
-    padding:1%;
-    width: 100%;
+    width:100%;
+    padding:25px;
 }
 footer, ul{
     display: inline-block;
